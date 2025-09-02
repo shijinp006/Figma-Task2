@@ -54,7 +54,10 @@ export const Home = ({ selectname }: any) => {
         <Display11 />
       </div>
       <Display12 />
-      <Display13 />
+      <div ref={refs["Contact"]} className="w-full">
+        
+        <Display13 />
+      </div>
     </div>
   );
 };

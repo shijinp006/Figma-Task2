@@ -26,7 +26,7 @@ export const Display13 = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="flex flex-wrap w-full h-full items-center justify-center p-2 relative">
+      <div className="flex flex-wrap w-full h-full items-center justify-center relative">
         <div className="w-full flex flex-col h-[1480px] bg-[#F5F8FD] lg:h-full lg:p-20 ">
           <div className="flex flex-col lg:flex-row w-full lg:h-[450px]  gap-2 lg:items-center lg:justify-center">
             <motion.div
