@@ -2,12 +2,12 @@ import { useState } from "react";
 import pizzalog from "../../assets/pizzalogo.png";
 import downarrow from "../../assets/downarrow.svg";
 import bucketicon from "../../assets/bucketicon.svg";
-import zeroicon from "../../assets/zeroicon.svg";
+
 import threelineicon from "../../assets/threelineicon.svg";
 
-export const Nav = ({ select }) => {
+export const Nav = ({ select}:any) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState("");
+
 
   const menuItems = [
     { name: "Home", hasDropdown: false },

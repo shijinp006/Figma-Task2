@@ -4,7 +4,7 @@ import todaysale from "../../assets/todaybestsale.png";
 import chilly from "../../assets/chilly.png";
 import burgertext from "../../assets/burgertext.png";
 import burger from "../../assets/burger.png";
-import tomato from "../../assets/tomato.png";
+
 import { motion } from "framer-motion";
 
 export const Display1 = () => {
