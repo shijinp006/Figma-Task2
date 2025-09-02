@@ -94,7 +94,7 @@ export const Display5 = () => {
 
         {/* Products Grid */}
         <div className="relative w-full h-full lg:w-[1000px] lg:h-full">
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2  lg:justify-center lg:items-center lg:px-17">
             {products.map((product, index) => (
               <motion.div
                 key={index}
@@ -106,7 +106,7 @@ export const Display5 = () => {
                 className="relative flex flex-col justify-center w-full lg:w-[200px] lg:h-[300px] cursor-pointer transition-transform duration-300 lg:hover:scale-95"
               >
                 {/* Product Image Section */}
-                <div className="w-full h-[150px] lg:w-[200px] lg:h-[350px] rounded-[14px] lg:p-1 relative bg-[#FFFFFF] flex items-center justify-center">
+                <div className="w-full h-[150px] lg:w-[200px] lg:h-[350px] rounded-[14px] lg:p-1 relative bg-[#FFFFFF] flex items-center justify-center ">
                   {/* Heart Icon */}
                   <div className="absolute top-[-6%] left-2 w-[45px] h-[45px] lg:w-[45px] lg:h-[45px]">
                     <img
@@ -162,7 +162,7 @@ export const Display5 = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center lg:w-[1230px] lg:h-[70px]"
         >
-          <button className="flex items-center justify-center gap-2 w-[150px] h-[40px] lg:w-[210px] lg:h-[45px] rounded-[9px] bg-[#EE284B] text-white text-sm lg:text-lg font-semibold hover:scale-95 transition-transform duration-300 cursor-pointer">
+          <button className="flex items-center justify-center gap-2 w-[150px] h-[40px] lg:w-[140px] lg:h-[45px] rounded-[9px] bg-[#EE284B] text-white text-sm lg:text-lg font-semibold hover:scale-95 transition-transform duration-300 cursor-pointer">
             <img src={truckicon} alt="truck icon" className="w-5 h-5" />
             <p className="font-['Oswald'] text-[14px] leading-[17px] text-center capitalize">
               View More

@@ -8,7 +8,7 @@ export const Display10 = () => {
   return (
     <div className="flex flex-wrap w-full h-screen bg-[#F5F8FD] items-center justify-center">
       <div className="flex flex-wrap w-full h-full items-center justify-center">
-        <div className="w-full h-full flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-16 p-2 gap-2">
+        <div className="w-full h-full flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-0 p-2 gap-2">
           
           {/* Left Card */}
           <motion.div

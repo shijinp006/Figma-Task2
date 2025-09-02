@@ -16,7 +16,7 @@ export const Display2 = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen flex items-center justify-center bg-[#F5F8FD] lg:mt-4">
+    <div className="w-full min-h-screen flex items-center justify-center bg-[#F5F8FD] ">
       <div className="flex flex-col w-full min-h-screen ">
         <div className="flex flex-col lg:flex-row w-full lg:h-[548px] relative">
           {/* 🍅 Tomato */}

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export const Display1 = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full min-h-screen bg-[url('/src/assets/bg.png')] bg-cover bg-center justify-center items-center gap-6 p-4 rounded-[10px]">
+    <div className="flex flex-col lg:flex-row w-full min-h-screen bg-[url('/src/assets/bg.png')] bg-cover bg-center justify-center items-center gap-6 p-4 ">
       {/* Logo */}
       <div className="flex justify-center items-center lg:h-[300px]">
         <motion.img

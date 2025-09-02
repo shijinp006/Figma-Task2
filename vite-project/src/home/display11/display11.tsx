@@ -13,7 +13,7 @@ import frenchfries from "../../assets/frenchfries (2).png";
 export const Display11 = () => {
   return (
     <motion.div 
-      className="flex flex-wrap w-full h-screen justify-center items-center bg-[#F5F8FD] mt-3"
+      className="flex flex-wrap w-full h-screen justify-center items-center bg-[#F5F8FD] mt-3 lg:mt-0"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

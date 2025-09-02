@@ -101,8 +101,8 @@ export const Display7 = () => {
             viewport={{ once: true }}
             className="flex flex-wrap w-full h-full lg:h-screen lg:justify-center lg:mt-20"
           >
-            <div className="flex justify-center w-full h-[530px] lg:h-[300px] bg-[#EE284B] p-2 rounded-[20px] mt-3 lg:w-[1000px]">
-              <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full">
+            <div className="flex justify-center w-full h-[530px] lg:h-[250px] lg:w-[950px] bg-[#EE284B] p-2 rounded-[20px] mt-3 ">
+              <div className="flex flex-col lg:flex-row items-center lg:justify-center w-full">
                 {[
                   { icon: superqualityfood, title: "super quality food" },
                   { icon: orginalrecipies, title: "ORIGINAL RECIPES" },
@@ -115,7 +115,7 @@ export const Display7 = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: i * 0.2 }}
                     viewport={{ once: true }}
-                    className="flex flex-col items-center"
+                    className="flex flex-col lg:w-[200px] items-center "
                   >
                     <img
                       src={item.icon}

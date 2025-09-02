@@ -32,7 +32,7 @@ export const Home = ({ selectname }: any) => {
   }, [selectname]);
 
   return (
-    <div className="w-full flex flex-wrap flex-col md:flex-row bg-white opacity-100 justify-center items-center gap-4 p-2">
+    <div className="w-full  lg:h-full flex flex-wrap flex-col md:flex-row bg-white opacity-100 justify-center items-center gap-4 lg:gap-0 ">
       <Display1 />
 
       <div ref={refs["Shop"]} className="w-full">

@@ -11,7 +11,7 @@ export const Display12 = () => {
   return (
     <div className="flex flex-wrap w-full h-screen items-center justify-center">
       <div className="flex flex-wrap w-full h-full lg:h-[500px] items-center justify-center">
-        <div className="flex w-full h-full  p-2 lg:p-3 lg:justify-center lg:items-center">
+        <div className="flex w-full h-full  p-2 lg:p-0 lg:justify-center lg:items-center">
           <motion.div
             className="w-full h-full lg:h-[100px] opacity-100 grid grid-cols-2 lg:grid-cols-5 "
             initial={{ opacity: 0, y: 20 }}
